@@ -8,7 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(str)
-  if str.to_i
+  if str.to_i >= 0 && str.to_i <=8
     return str.to_i - 1
   end
 end
